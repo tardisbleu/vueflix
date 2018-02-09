@@ -1,0 +1,35 @@
+{
+  "name": "Projetnode",
+  "version": "",
+  "description": "Projet nodejs",
+  "main": "src/node/app.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack --progress --hide-modules && nodemon src/node/app.js"
+  },
+  "author": "Rémy TORRES",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.6",
+    "mongoose": "^4.13.7",
+    "multer": "^1.3.0",
+    "vue": "^2.5.11",
+    "vue-loader": "^13.6.0",
+    "vue-router": "^3.0.1",
+    "vue-star-rating": "^1.5.1",
+    "vue-template-compiler": "^2.5.11",
+    "vuex": "^3.0.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
